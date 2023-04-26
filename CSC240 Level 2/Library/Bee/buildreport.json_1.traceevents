@@ -1,0 +1,508 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682469310804719, "dur": 1157219, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469310804928, "dur": 7305, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469310812235, "dur": 30614, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469310842851, "dur": 418649, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469311261502, "dur": 686635, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469311948139, "dur": 13798, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469311962443, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682469311141862, "dur": 105552, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682469311142672, "dur": 31644, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682469311235216, "dur": 3527, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682469311238745, "dur": 8663, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682469311239267, "dur": 7525, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682469311250917, "dur": 1005, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682469311250265, "dur": 1675, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469311962559, "dur": 196, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682469311293499, "dur":875, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311294379, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682469311294429, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682469311294440, "dur":349, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682469311294806, "dur":407, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311295213, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311940888, "dur":356, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941245, "dur":69, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941314, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941319, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941329, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941331, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941338, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941339, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941348, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941349, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941355, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941357, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941361, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941362, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941366, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941367, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941371, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941373, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941376, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941377, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941381, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941382, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941386, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941387, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941391, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941393, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941396, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941397, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941401, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941402, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941406, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941406, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941411, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941428, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311941435, "dur":1323, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682469311295049, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311295220, "dur":3403, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311298640, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682469311298647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311299599, "dur":275, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682469311299878, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682469311299920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311300110, "dur":8718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682469311308829, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682469311308966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311308971, "dur":71096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682469311380140, "dur":104997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311485141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311485148, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311488183, "dur":15837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311504033, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311504048, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311505094, "dur":18537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311523635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311523645, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311525271, "dur":15973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311541248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311541255, "dur":6086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311547391, "dur":17048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311564442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311564448, "dur":16784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311581276, "dur":66288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311647568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311647576, "dur":18188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311665806, "dur":57323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311723135, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311723148, "dur":19777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311742972, "dur":196123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311939100, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682469311939109, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682469311940831, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1682469311940834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311295052, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311295222, "dur":3412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311298638, "dur":8483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682469311307124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311307137, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682469311309183, "dur":66261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2.exe" }}
+,{ "pid":12345, "tid":2, "ts":1682469311375454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311375496, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2.exe" }}
+,{ "pid":12345, "tid":2, "ts":1682469311377888, "dur":37941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311415837, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311415852, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311419217, "dur":26956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311446203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311446233, "dur":3650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311449932, "dur":16101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311466039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311466049, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311466946, "dur":18054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311485004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311485012, "dur":5378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311490437, "dur":44426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311534871, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311534887, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311538410, "dur":20139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311558557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311558569, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311561801, "dur":130055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311691861, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311691872, "dur":5902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311697825, "dur":145403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311843233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682469311843244, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682469311845175, "dur":95717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682469311295145, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682469311295251, "dur":3384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682469311298636, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682469311298838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682469311311099, "dur":216253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682469311527407, "dur":62083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682469311589500, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682469311589518, "dur":11259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682469311600827, "dur":278693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682469311879524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682469311879531, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682469311881106, "dur":59825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311295082, "dur":151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311295233, "dur":3397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311298639, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1682469311298969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311312235, "dur":210915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1682469311523221, "dur":18109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311541334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311541363, "dur":18683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311560391, "dur":18423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311578821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311578834, "dur":5804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311584697, "dur":107948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311692649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311692657, "dur":12492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311705215, "dur":121750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311826970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682469311826979, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682469311828538, "dur":112359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311295074, "dur":153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311295227, "dur":3400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311298638, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682469311298989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311375534, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682469311377931, "dur":34120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311412059, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311412074, "dur":6588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311418705, "dur":26757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311445469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311445481, "dur":9803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311455327, "dur":56267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311511600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311511612, "dur":10591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311522248, "dur":23719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311545972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311545986, "dur":17785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311563819, "dur":38781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311602604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311602610, "dur":4645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311607315, "dur":165583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311772901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682469311772910, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682469311774464, "dur":166424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311295113, "dur":125, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311295239, "dur":3392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311298640, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1682469311298828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311305540, "dur":70873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1682469311376506, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682469311376701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311377255, "dur":35700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682469311413012, "dur":51503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311464523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311464536, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311467898, "dur":15949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311483854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311483865, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311485355, "dur":29667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311515026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311515035, "dur":4984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311520072, "dur":40976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311561052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311561064, "dur":23653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311584768, "dur":202836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311787611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682469311787625, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682469311789224, "dur":151656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311295134, "dur":111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311295245, "dur":3380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311298639, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1682469311298851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311311914, "dur":65102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1682469311377124, "dur":30973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311408102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311408117, "dur":10537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311418703, "dur":67150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311485856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311485863, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311489140, "dur":29933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311519080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311519094, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311520252, "dur":100114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311620372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311620384, "dur":31117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311651549, "dur":100442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311752000, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311752016, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311753689, "dur":139159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311892853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682469311892863, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682469311893848, "dur":47063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311295171, "dur":86, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311295257, "dur":3371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311298637, "dur":8012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1682469311306653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311306931, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1682469311308794, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1682469311308904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311308911, "dur":69039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1682469311378022, "dur":27688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311405714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311405725, "dur":8523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311414297, "dur":21838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311436141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311436152, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311437149, "dur":125963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311563116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311563123, "dur":5494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311568666, "dur":44570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311613244, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311613256, "dur":51584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311664887, "dur":103593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311768484, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311768493, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682469311770974, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1682469311771125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682469311771130, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1682469311773478, "dur":167405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311295194, "dur":70, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311295264, "dur":3369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311298639, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1682469311298822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311304917, "dur":71569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1682469311376559, "dur":24570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311401138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311401229, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311402223, "dur":19612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311421840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311421852, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311423302, "dur":17977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311441285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311441296, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311442331, "dur":38260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311480599, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311480613, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311481754, "dur":32659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311514445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311514459, "dur":5147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311519659, "dur":18803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311538466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311538474, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311539971, "dur":18710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311558684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311558690, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311561686, "dur":34426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311596120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311596134, "dur":7868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311604050, "dur":62192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311666246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311666257, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311667117, "dur":194335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311861459, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682469311861470, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682469311862542, "dur":78353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311295222, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311295223, "dur":3403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311298639, "dur":8350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1682469311306992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311307068, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1682469311308905, "dur":3361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311312308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311313028, "dur":64564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311377648, "dur":40825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311418476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311418484, "dur":5848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311424378, "dur":31296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311455678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311455699, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311456971, "dur":30860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311487839, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311487854, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311492743, "dur":44466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311537213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311537220, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311540153, "dur":15352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311555512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311555524, "dur":4709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311560289, "dur":37711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311598007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311598020, "dur":47279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311645351, "dur":136874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311782233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682469311782273, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682469311784134, "dur":156774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311295249, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311295249, "dur":3375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311298638, "dur":25119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1682469311323767, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311324111, "dur":52980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1682469311377149, "dur":39004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311416157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311416165, "dur":5600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311421815, "dur":122901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311544721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311544733, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311547956, "dur":41657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311589616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311589623, "dur":14605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311604274, "dur":91599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311695879, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311695891, "dur":9636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311705569, "dur":110313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311815889, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682469311815902, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682469311817251, "dur":123640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311295267, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311295268, "dur":3368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311298637, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1682469311298823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311305419, "dur":70991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1682469311376538, "dur":92019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311468561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311468571, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311474262, "dur":16538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311490804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311490817, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311492715, "dur":16288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311509012, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311509025, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311512912, "dur":27586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311540502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311540513, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311543616, "dur":19344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311562967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311562983, "dur":4115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311567148, "dur":35341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311602520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311602530, "dur":49146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311651718, "dur":100274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311752000, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311752016, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682469311754358, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1682469311754441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311754503, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1682469311755727, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1682469311755777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311755784, "dur":9791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1682469311765624, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1682469311765786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311765795, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1682469311766952, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1682469311768062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311768072, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1682469311769392, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1682469311769443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311769448, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1682469311770875, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1682469311770925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682469311770930, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1682469311773349, "dur":167532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311295296, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311295297, "dur":3355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311298653, "dur":8179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1682469311306837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311306851, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1682469311308989, "dur":72016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311381010, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311381024, "dur":15413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311396494, "dur":21475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311417975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311417984, "dur":4704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311423055, "dur":144981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311568040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311568051, "dur":21951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311590049, "dur":102651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311692703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311692710, "dur":32142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311724907, "dur":46250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311771161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682469311771168, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682469311772766, "dur":168113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311295325, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311295326, "dur":3311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311298637, "dur":6447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1682469311305088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311305101, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1682469311308764, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1682469311308887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311308896, "dur":237510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1682469311546455, "dur":19363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682469311565823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311565833, "dur":15168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682469311581051, "dur":115116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682469311696170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311696178, "dur":5501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682469311701729, "dur":61215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682469311762952, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311762966, "dur":6239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682469311769249, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1682469311769300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311769306, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1682469311770599, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1682469311770648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682469311770655, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1682469311772204, "dur":168680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311295345, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311295346, "dur":3291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311298638, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1682469311298818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311300697, "dur":8238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1682469311308986, "dur":66480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311375506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311376263, "dur":5410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311381772, "dur":23082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311404862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311404875, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311407769, "dur":24621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311432397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311432409, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311433392, "dur":51090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311484487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311484496, "dur":4787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311489342, "dur":30068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311519415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311519422, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311523742, "dur":17016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311540762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311540769, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311542210, "dur":104733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311646950, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311646963, "dur":10826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311657844, "dur":38981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311696829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311696859, "dur":8653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311705553, "dur":105044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311810603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682469311810613, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682469311811913, "dur":128977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311295375, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311295376, "dur":3255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311298636, "dur":7976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1682469311306618, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311306644, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1682469311309069, "dur":5247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1682469311314324, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311314336, "dur":63514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1682469311377907, "dur":20471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311398384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311398610, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311399569, "dur":17534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311417109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311417118, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311419854, "dur":39208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311459068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311459079, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311460115, "dur":33905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311494025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311494036, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311496789, "dur":40154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311536950, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311536966, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311538971, "dur":25312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311564287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311564295, "dur":16721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311581063, "dur":105294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311686363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311686375, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311688327, "dur":187538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311875870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682469311875880, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aidan/OneDrive/Documents/Level 2/CSC240 Level 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682469311877523, "dur":63414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682469311943760, "dur":1178, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682469311962815, "dur": 595, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682469311962432, "dur": 994, "ph": "X", "name": "Write chrome-trace events", "args": {} },
