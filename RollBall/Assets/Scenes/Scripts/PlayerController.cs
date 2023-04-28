@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class PlayerController : MonoBehaviour
     private int count;
     private float movementX;
     private float movementY;
+
+    private int level = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +41,8 @@ public class PlayerController : MonoBehaviour
         countText.text = "Count: " + count.ToString();
         if(count >= 12)
         {
-            winTextObject.SetActive(true);
+            LevelTransition();
+            //winTextObject.SetActive(true);
         }
     }
 
@@ -57,4 +62,23 @@ public class PlayerController : MonoBehaviour
             SetCountText();
         }
     }
+
+    void LevelTransition()
+    {
+        if(level == 0)
+        {
+            SceneManager.LoadScene(1);
+            level = 1;
+            count = 0;
+        } else if(level == 1)
+        {
+            SceneManager.LoadScene(2);
+            level = 2;
+            count = 0;
+        } else if(level == 2)
+        {
+            winTextObject.SetActive(true);
+        }
+    }
+
 }
