@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private float movementY;
 
     private int level = 0;
+	private Scene curLevel;
 
 
     // Start is called before the first frame update
@@ -27,6 +28,10 @@ public class PlayerController : MonoBehaviour
 
         SetCountText();
         winTextObject.SetActive(false);
+		
+		curLevel = SceneManager.GetActiveScene();
+		if (curLevel.name == "Level 1") { level = 1; }
+		if (curLevel.name == "Level 2") { level = 2; }
     }
 
     void OnMove(InputValue movementValue)
@@ -50,6 +55,12 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
         rb.AddForce(movement * speed);
+		if (rb.position.y < -5.0f) {
+			rb.position = new Vector3(0f, 0.5f, 0f);
+			Debug.Log(rb.position);
+			Vector3 bump = new Vector3(0, -10.0f, 0);
+			rb.AddForce(bump);
+		}
     }
 
     private void OnTriggerEnter(Collider other)
@@ -67,12 +78,12 @@ public class PlayerController : MonoBehaviour
     {
         if(level == 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("Level 1");
             level = 1;
             count = 0;
         } else if(level == 1)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("Level 2");
             level = 2;
             count = 0;
         } else if(level == 2)
